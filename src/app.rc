@@ -1,0 +1,3 @@
+// app.rc – Windows resource file
+// Add your .ico file as "app.ico" in the same folder to get a taskbar icon
+// IDI_ICON1 ICON "app.ico"

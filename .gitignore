@@ -1,0 +1,89 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+build/
+cmake-build-*/
+
+# ── Compiled artifacts ──────────────────────────────────────────────────────────
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.o
+*.exp
+*.idb
+*.iobj
+*.ipdb
+
+# ── CMake ───────────────────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+Testing/
+*.cmake
+!CMakeLists.txt
+
+# ── MSVC / Visual Studio ────────────────────────────────────────────────────────
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.tlog/
+*.lastbuildstate
+*.recipe
+
+# ── MinGW / MSYS2 ───────────────────────────────────────────────────────────────
+*.exe.stackdump
+
+# ── IDE & editors ───────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# ── Package managers ────────────────────────────────────────────────────────────
+vcpkg/
+vcpkg_installed/
+
+# ── License activator (private — never commit) ──────────────────────────────────
+keygen/
+**/keygen.cpp
+**/activator.cpp
+
+# ── OS junk ─────────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# ── Logs & temp ─────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ── Coverage ────────────────────────────────────────────────────────────────────
+coverage/
+.coverage
+*.gcno
+*.gcda
+*.profraw
+*.profdata
